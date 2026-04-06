@@ -23,8 +23,7 @@ export default function CTA() {
           <Button
             asChild
             size="lg"
-            variant="outline"
-            className="border-white/30 text-white hover:bg-white/10 h-12 px-8 text-base"
+            className="bg-white/10 border border-white/30 text-white hover:bg-white/20 h-12 px-8 text-base"
           >
             <Link href="#pricing">View Pricing</Link>
           </Button>

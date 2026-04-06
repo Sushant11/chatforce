@@ -20,7 +20,7 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <Button asChild variant="ghost" className="text-slate-300 hover:text-white hidden sm:flex">
+          <Button asChild className="bg-transparent border border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white hidden sm:flex">
             <Link href="/login">Sign In</Link>
           </Button>
           <Button asChild className="bg-blue-600 hover:bg-blue-500 text-white">

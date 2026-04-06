@@ -39,8 +39,7 @@ export default function Hero() {
               <Button
                 asChild
                 size="lg"
-                variant="outline"
-                className="border-slate-600 text-slate-300 hover:bg-slate-800 h-12 px-8 text-base"
+                className="bg-slate-800 border border-slate-600 text-slate-200 hover:bg-slate-700 hover:text-white h-12 px-8 text-base"
               >
                 <Link href="#how-it-works">See How It Works</Link>
               </Button>
